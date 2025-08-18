@@ -82,5 +82,8 @@
           sudo apt install docker.io -y
           sudo systemctl start docker
           sudo systemctl enable docker
+          sudo usermod -aG docker ubuntu
+          newgrp docker || true
+          sudo chmod 666 /var/run/docker.sock
           sudo docker run -d --name 2048game -p 3000:3000 dinesh1097/2048game:latest
       register: ec2
