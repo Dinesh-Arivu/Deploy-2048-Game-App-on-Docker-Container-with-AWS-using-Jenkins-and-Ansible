@@ -11,7 +11,7 @@ pipeline {
         }
         stage('checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/Aj7Ay/ANSIBLE.git'
+                git branch: 'main', url: 'https://github.com/Dinesh-Arivu/Deploy-2048-Game-App-on-Docker-Container-with-AWS-using-Jenkins-and-Ansible.git'
             }
         }
         stage('TRIVY FS SCAN') {
