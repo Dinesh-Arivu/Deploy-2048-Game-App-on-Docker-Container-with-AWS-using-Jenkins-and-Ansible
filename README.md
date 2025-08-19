@@ -1,4 +1,4 @@
 # Deploy 2048 Game App on Docker Container with AWS using Jenkins and Ansible
 
-# Blog Link - https://mrcloudbook.com/automate-ec2-provisioning-in-aws-using-jenkins-and-ansible-playbook/
+Blog Link - https://mrcloudbook.com/automate-ec2-provisioning-in-aws-using-jenkins-and-ansible-playbook/
 
